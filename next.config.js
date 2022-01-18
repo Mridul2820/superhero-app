@@ -2,7 +2,9 @@ const path = require('path')
 require('dotenv').config()
 
 module.exports = {
-    env: { },
+    env: {
+        MONGO_URL: process.env.MONGO_URL
+    },
     publicRuntimeConfig: {},
     images: {
         formats: [
