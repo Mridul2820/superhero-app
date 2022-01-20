@@ -9,7 +9,7 @@ body {
 * {
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: #333333 #d2c8ff;
+    scrollbar-color: #2563eb transparent;
 }
 
 *::-webkit-scrollbar {
@@ -17,9 +17,9 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-    background: #c8c8ff;
+    background: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #333333;
+    background-color: #2563eb;
 }

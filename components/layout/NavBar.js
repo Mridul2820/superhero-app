@@ -10,9 +10,11 @@ const NavBar = () => {
                         Super Hero
                     </a>
                 </Link>
-                <button className='bg-blue-600 text-white px-3 py-1 rounded-sm'>
-                    Add Hero
-                </button>
+                <Link href="/add-hero">
+                    <a className='bg-blue-600 text-white px-3 py-1 rounded-sm'>
+                        Add Hero
+                    </a>
+                </Link>
             </div>
         </nav>
     );

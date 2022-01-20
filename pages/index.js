@@ -12,7 +12,7 @@ const Home = ({ heros }) => {
 
             <div className="flex gap-5 flex-wrap mt-8 justify-center">
             {heros.map(hero => (
-                <div className="shadow-bs3 hover:shadow-bs1 transition-all duration-300 p-4 rounded-sm w-72">
+                <div className="shadow-bs3 hover:shadow-bs1 transition-all duration-300 p-4 rounded-sm w-72 bg-white" key={hero._id}>
                     <h3 className="text-xl font-bold text-center">
                         {hero.superHero}
                     </h3>
