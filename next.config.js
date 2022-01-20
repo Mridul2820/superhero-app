@@ -3,7 +3,8 @@ require('dotenv').config()
 
 module.exports = {
     env: {
-        MONGO_URL: process.env.MONGO_URL
+        MONGO_URL: process.env.MONGO_URL,
+        SITE_URL: process.env.SITE_URL
     },
     publicRuntimeConfig: {},
     images: {
