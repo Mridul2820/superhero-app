@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Next JS Template with Tailwind</h1>
+    <h1>Super Hero App</h1>
 </div>
 
 <br />
