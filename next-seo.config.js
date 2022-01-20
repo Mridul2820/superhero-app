@@ -1,6 +1,6 @@
 export default {
-    title: "Next Template",
-    description: "Next Template",
+    title: "SuperHero App",
+    description: "SuperHero App",
     twitter: {
         cardType: 'summary_large_image',
     },
@@ -8,7 +8,7 @@ export default {
         type: 'website',
         locale: 'en_IN',
         url: 'mridul.tech',
-        site_name: 'Next Template',
+        site_name: 'SuperHero App',
         // images: [
         //     {
         //         url: "",

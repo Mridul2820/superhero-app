@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { BiAddToQueue } from 'react-icons/bi';
 
 const NavBar = () => {
     return (
@@ -11,7 +12,8 @@ const NavBar = () => {
                     </a>
                 </Link>
                 <Link href="/add-hero">
-                    <a className='bg-blue-600 text-white px-3 py-1 rounded-sm'>
+                    <a className='bg-blue-600 text-white px-3 py-1 rounded-sm flex items-center gap-2'>
+                        <BiAddToQueue />
                         Add Hero
                     </a>
                 </Link>
