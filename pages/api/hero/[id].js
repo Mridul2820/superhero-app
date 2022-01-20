@@ -41,7 +41,7 @@ export default async (req, res) => {
         
         case 'DELETE':
             try {
-                const hero = await Hero.findByIdAndUpdate({_id: id})
+                const hero = await Hero.findOneAndDelete({_id: id})
                 if(!hero){
                     res.status(400).json({success: false})
                 }

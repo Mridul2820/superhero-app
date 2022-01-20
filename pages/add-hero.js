@@ -10,8 +10,6 @@ const AddHero = () => {
         realname: ''
     })
 
-    console.log(form)
-
     const router = useRouter()
 
     const handelChange = e => {

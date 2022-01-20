@@ -5,7 +5,6 @@ import { AiOutlineEdit } from 'react-icons/ai';
 import { BiZoomIn } from 'react-icons/bi';
 
 const Home = ({ heros }) => {
-    console.log(heros)
     return (
         <div className='min-h-[calc(100vh-108px)] max-w-[1100px] mx-auto p-5'>
             <h1 className="text-center text-3xl font-bold">
