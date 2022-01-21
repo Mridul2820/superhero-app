@@ -24,7 +24,7 @@ const Home = ({ heros }) => {
                                 View
                             </a>
                         </Link>
-                        <Link key={hero.id} href={`/${hero.id}`}>
+                        <Link key={hero.id} href={`/${hero._id}/edit`}>
                             <a className='bg-blue-700 rounded-sm text-white py-1 px-3 flex items-center gap-2'>
                                 <AiOutlineEdit />
                                 Edit
