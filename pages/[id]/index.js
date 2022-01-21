@@ -2,6 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/router';
 import { BsFillTrashFill } from 'react-icons/bs';
+import Link from 'next/link';
+import { AiOutlineEdit } from 'react-icons/ai';
 
 const { SITE_URL } = process.env
 
@@ -34,10 +36,18 @@ const Hero = ({ hero }) => {
                 <p className="text-xl font-semibold">
                     {hero.realname}
                 </p>
-                <button className='bg-red-600 text-white px-3 py-1 rounded-sm flex items-center gap-2' onClick={deleteHero}>
-                    <BsFillTrashFill />
-                    Delete
-                </button>
+                <div className="flex justify-between items-center gap-4 w-full">
+                    <Link key={hero.id} href={`/${hero._id}/edit`}>
+                        <a className='bg-blue-500 text-white px-3 py-1 rounded-sm flex items-center gap-2'>
+                            <AiOutlineEdit />
+                            Edit
+                        </a>
+                    </Link>
+                    <button className='bg-red-600 text-white px-3 py-1 rounded-sm flex items-center gap-2' onClick={deleteHero}>
+                        <BsFillTrashFill />
+                        Delete
+                    </button>
+                </div>
             </div>
         </div>
     );
