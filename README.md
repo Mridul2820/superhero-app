@@ -18,3 +18,7 @@
 - Edit
 
 ## Screenshots 💻
+<img src="/public/assets/screenshot-1.png"/>
+<br />
+<br />
+<img src="/public/assets/screenshot-2.png"/>
