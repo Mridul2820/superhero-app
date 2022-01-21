@@ -17,6 +17,9 @@
 - Delete
 - Edit
 
+## Demo 🌍
+[View Demo](https://superhero-identity-app.netlify.app/)
+
 ## Screenshots 💻
 <img src="/public/assets/screenshot-1.png"/>
 <br />
