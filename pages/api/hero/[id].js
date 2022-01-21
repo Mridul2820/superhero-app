@@ -1,4 +1,4 @@
-import dbConnect from '../../../db/dbConnect'
+import dbConnect from '../../../database/dbConnect'
 
 import Hero from '../../../models/Heros'
 
